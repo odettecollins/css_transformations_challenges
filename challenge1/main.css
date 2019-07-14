@@ -1,3 +1,22 @@
-img {
+/*img {
 	margin: 50px;
+	transition-timing-function: ease-in-out;
 }
+
+img:hover {
+
+	transition-property: width,hight;
+	transition-duration: 2s;
+	width: 100px;
+}
+*/
+img {
+  margin: 50px;
+  transition: transform 1s ease;
+}
+  
+img:hover {
+  transform: scale(2);
+}
+
+
